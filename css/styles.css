@@ -1,0 +1,133 @@
+body {
+  color: #40514e;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+p {
+  line-height: 2;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #b2ebf2;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ff5722;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #b2ebf2;
+  font-weight: normal;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #ff5722;
+  text-decoration: none;
+}
+.top-container {
+  background-color: #00bcd4;
+  position: relative;
+  padding-top: 100px;
+}
+
+#top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+#bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+#mountain {
+  display: block;
+  margin: auto;
+}
+.pro {
+  text-decoration: underline;
+}
+.myPic {
+  width: 200px;
+  margin-top: 100px;
+}
+.computer {
+  margin-right: 30px;
+  margin-top: 21px;
+  width: 18%;
+  float: left;
+}
+.fryingpan {
+  margin-left: 30px;
+  width: 20%;
+  float: right;
+}
+
+/* .middle-container,
+.bottom-container {
+  width: 200px;
+  height: 200px;
+} */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  display: flow-root;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+  border-color: grey;
+  margin: 100px auto;
+}
+
+.BUTTON_FOE {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  height: 14px;
+  line-height: 14px;
+  color: #b2ebf2;
+  font-family: Open Sans;
+  width: 150px;
+  font-size: 22px;
+  font-weight: 100;
+  padding: 17px;
+  background-color: #dd2c00;
+  border: 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.BUTTON_FOE:hover {
+  background: #891e03;
+  border: solid rgba(221, 44, 0, 0.46) 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-decoration: none;
+}
+.bottom-container {
+  padding: 80px 0;
+  background-color: #b2ebf2;
+}
+.bottom-container p {
+  font-weight: 700;
+  margin-top: 50px;
+  color: grey;
+}
+
+.footer-link {
+  margin: 25px;
+}
